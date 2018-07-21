@@ -18,6 +18,11 @@ var first = process.argv[2];
 var operand = process.argv[3];
 var second = process.argv[4];
 
+if(_.isEmpty(first) || _.isEmpty(operand) || _.isEmpty(second)) {
+	console.error("Second number input invalid, example: 2 ↑ 4")
+	process.exit(1);
+}
+
 if(!_.isNumber(+first)) {
 	console.error("First number input invalid, example: 2 ↑ 4")
 	process.exit(1);

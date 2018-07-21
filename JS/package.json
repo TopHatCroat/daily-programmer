@@ -7,7 +7,7 @@
   "author": "Antonio Martinović",
   "license": "Unlicense",
   "scripts": {
-    "run": "./node_modules/ts-node/dist/bin.js index.ts"
+    "20180709_easy": "./node_modules/ts-node/dist/bin.js 20180709_easy/index.ts"
   },
   "dependencies": {
     "@types/lodash": "^4.14.112",
