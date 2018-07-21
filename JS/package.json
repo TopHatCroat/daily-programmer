@@ -1,0 +1,21 @@
+{
+  "name": "daily-programmer",
+  "version": "1.0.0",
+  "description": "A collection of solution to the challenges from r/dailyprogrammer",
+  "main": "index.ts",
+  "repository": "github.com/TopHatCroat/daily-programmer",
+  "author": "Antonio Martinović",
+  "license": "Unlicense",
+  "scripts": {
+    "run": "./node_modules/ts-node/dist/bin.js index.ts"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.112",
+    "lodash": "^4.17.10",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  }
+}
