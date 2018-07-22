@@ -8,7 +8,7 @@ In this notation a single `↑` operator corresponds to iterated multiplication.
 
 ```
 2 ↑ 4 = ?
-= 2 * (2 * (2 * 2)) 
+= 2 * (2 * (2 * 2))
 = 2^4
 = 16
 ```
